@@ -1,0 +1,10 @@
+#abc{
+	font-size: 15px;
+	font-family: cursive;
+	text-align: center;
+	background-color: pink;
+	border-left: white;
+	border-radius: 50%;
+	border: 10px solid red;
+	text-decoration-line: underline;
+}

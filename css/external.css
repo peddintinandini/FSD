@@ -1,0 +1,14 @@
+.external{
+	border: 3px solid red;
+	background-color: orange;
+	border-bottom-color: black ;
+	border-inline: seashell;
+	border-bottom-left-radius: 50px solid red;
+	border-style: dotted;
+	border-left: white;
+	border-radius: 50%;
+	text-align: center;
+	font-family: cursive;
+	text-decoration: blink;
+	text-decoration-line:underline ;
+}
