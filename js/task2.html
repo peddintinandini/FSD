@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var obj = [{
+ 	'name':'nandu',
+ 	'rollno':'123',
+ 	'college':'AEC',
+ 	'branch':'ECE'
+ },
+ {
+ 	'name':'nandu',
+ 	'rollno':'456',
+ 	'college':'AEC',
+ 	'branch':'ECE'
+ },
+ {
+ 	'name':'nandu',
+ 	'rollno':'23',
+ 	'college':'AEC',
+ 	'branch':'ECE'
+ },]
+	// for (let i in Object.keys(obj))
+	// {
+   
+	// 	for(let j in obj[i]){
+		
+	// 		document.write(obj[i][j]+" "  )
+	// 	}
+	// 	document.write("<br>")
+	// }
+	for (var i=0;i<obj.length;i++)
+	{
+		for (var key in obj[i])
+		{
+			document.write(obj[i][key]+" ")
+		}
+		document.write("<br>")
+	}
+</script>
+</body>
+</html>

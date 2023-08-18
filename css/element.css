@@ -1,0 +1,53 @@
+p{
+	
+	font-size: 20px;
+}
+div
+{
+	height: 100px;
+	width: 200px;
+	background-color: gold;
+}
+*{
+	font-size: 50px;
+	font-family: cursive;
+	color: orange;
+}
+input[type]
+{
+	color: yellow;
+}
+input[type="text"]
+{
+	color: red;
+}
+input[type="number"]
+{
+	color: blue;
+}
+/*a[href]
+{
+	background-color: yellow;
+}*/
+a:link{
+	color:brown;
+}
+a:visited
+{
+	color:pink;
+}
+a:hover
+{
+	color:red;
+	font-size: 20px;
+}
+a:active
+{
+	color:yellow;
+}
+div:hover
+{
+	height: 300px;
+	width: 300px;
+	background-color: red;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>query selector</title>
+</head>
+<body>
+<p class="topic">HTMl</p>
+<p class="topic">HTM11</p>
+<p class="topic">HTMl2</p>
+<p class="topic">HTMl3</p>
+<ul>
+	<li>aec</li>
+	<li>aect</li>
+</ul>
+<script type="text/javascript">
+	let ps=document.querySelector(".topic");
+	ps.innerHTML = '<span> Hyper Text Markup Language </span>';
+	let lis = document.querySelector('li');
+	lis.innerText = '<span> aditya engineering college</span>';
+</script>
+</body>
+</html>

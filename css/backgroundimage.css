@@ -1,0 +1,27 @@
+/*body{
+	background-image: url('image1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+/*div{
+	height: 500px;
+	width: 500px;
+	background-image: url('image1.jpeg');
+	border: 10px solid white;
+}*/
+#abc 
+{
+
+	height: 500px;
+	width: 500px;
+	background-image: url('image1.jpeg');
+	border: 10px solid white;
+
+}
+.abc 
+{
+	background-image: url('image1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
